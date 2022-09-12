@@ -1,0 +1,11 @@
+
+a=10
+b=20
+c=30
+
+echo "filename is"= $0
+echo "No of parameters given"=$#
+echo "Double quoted parameters"=$*
+res =$ ($a+$b+$c) 
+echo sum = $res
+echo "status" = $? 
